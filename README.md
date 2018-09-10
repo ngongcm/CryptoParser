@@ -8,7 +8,7 @@ Usage:
    const qs = {
 	  limit: 25
    };
-   const pk = 'YOURE PRIVATE KEY';
+   const pk = 'YOUR PRIVATE KEY';
    var cryptoparser = new crypto('GET',uri, qs, pk, true, true);
    cryptoparser.MakeCall(cryptoparser.parse_Latest_Call, rp).then(val => {
 	    for(let coin of val) {
