@@ -1,7 +1,8 @@
 # CryptoParser
 Package for easily parsing and using data from CoinMarketCap's new PRO API<br><br>
 Usage:
-```const rp = require('request-promise');
+```
+   const rp = require('request-promise');
    const crypto = require('./CryptoParser.js');
    const uri = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest';
    const qs = {
